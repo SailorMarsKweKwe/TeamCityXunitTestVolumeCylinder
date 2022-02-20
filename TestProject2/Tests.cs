@@ -27,14 +27,13 @@ namespace TestProject2
         [InlineData(4, 7, 351.85837720205683)]
         [InlineData(0.456456, 6.5646, 4.296907269660276)]
 
-        public void VolumCylinderTest(double r, double h, double expected)
+        public void CalculateVolumCylinderTest(double r, double h, double expected)
         {
 
-            double actual = Method.VolumCylinder(r, h);
+            double actual = Method.VolumCylinderFormula(r, h);
 
             Assert.Equal(expected, actual);
         }
-
-        // Test TC.
+        // FF!
     }
 }
