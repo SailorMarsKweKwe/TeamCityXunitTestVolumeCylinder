@@ -3,7 +3,7 @@ using Xunit;
 
 namespace TestProject2
 {
-    public class UnitTest1
+    public class Tests
     {
         [Theory]
         [InlineData(1.2, 2, 9.047786842338605)]
@@ -34,6 +34,6 @@ namespace TestProject2
 
             Assert.Equal(expected, actual);
         }
-        // FF!
+        
     }
 }
