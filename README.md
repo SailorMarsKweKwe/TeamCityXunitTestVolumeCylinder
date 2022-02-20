@@ -1,2 +1,1 @@
-Hello TeamCity!
-!!
+Hello TeamCity
